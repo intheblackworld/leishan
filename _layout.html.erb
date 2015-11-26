@@ -1,0 +1,14 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+ <%= render :partial => "head" %>
+</head>
+<body>
+
+  <%= render :partial => "header" %>
+  <%= render :partial => "sidebar" %>
+  <%= yield %> 
+  <%= render :partial => "footer" %>
+  <%= livereload_js %>
+</body>
+</html>
